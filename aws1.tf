@@ -1,3 +1,5 @@
+# This code will create public VPC, public subnet, IGW, create public route table and associate the public subnet, secuity group, upload key pair, and finally create ec2 instance using them. 
+
 # Terraform Provider Configuration
 provider "aws" {
   region = "us-east-1"  # Change to your preferred region
